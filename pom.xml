@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://13.127.168.131:9980/mithuntechnologies/repository/facebook-releases/</url>
+	      <url>http://3.111.246.153:9980/mithuntechnologies/repository/facebook-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.127.168.131:9980/mithuntechnologies/repository/facebook-snapshot/</url>
+	      <url>http://3.111.246.153:9980/mithuntechnologies/repository/facebook-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
@@ -115,7 +115,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.3</version>
+				<version>3.9.1.2184</version>
 				<configuration>
 					<source>${jdk.version}</source>
 					<target>${jdk.version}</target>
