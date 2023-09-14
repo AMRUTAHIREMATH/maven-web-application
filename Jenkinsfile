@@ -20,6 +20,5 @@ stage('ExecuteSonarQubeReport'){
 sh "${mavenHome}/bin/mvn sonar:sonar"
 }
 }
-*/
 
 }
