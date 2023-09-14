@@ -21,4 +21,3 @@ sh "${mavenHome}/bin/mvn sonar:sonar"
 }
 }
 
-}
